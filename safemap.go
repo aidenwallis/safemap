@@ -2,12 +2,13 @@ package safemap
 
 import "sync"
 
+// SafeMap is the struct that wraps a hashmap with a RWMutex
 type SafeMap struct {
 	mu   sync.RWMutex
 	data map[string]interface{}
 }
 
-// Create a new Safemap instance
+// New creates a new Safemap instance
 func New() *SafeMap {
 	m := &SafeMap{
 		data: map[string]interface{}{},
