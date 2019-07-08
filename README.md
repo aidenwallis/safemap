@@ -41,7 +41,7 @@ func main() {
 		fmt.Println("Key no longer exists in hashmap")
 	}
     
-    count := hashmap.Count()
-    fmt.Println("Only ", count, " values are in the hashmap!")
+	count := hashmap.Count()
+	fmt.Println("Only ", count, " values are in the hashmap!")
 }
 ```
