@@ -1,5 +1,9 @@
 # safemap
 
+[![GoDoc](https://godoc.org/github.com/aidenwallis/safemap?status.svg)](https://godoc.org/github.com/aidenwallis/safemap)
+[![Build Status](https://travis-ci.org/aidenwallis/safemap.svg?branch=master)](https://travis-ci.org/aidenwallis/safemap)
+[![Coverage Status](https://coveralls.io/repos/github/aidenwallis/safemap/badge.svg?branch=master)](https://coveralls.io/github/aidenwallis/safemap?branch=master)
+
 A dead simple hashmap implementation that allows you to not worry about concurrent access/writes through the use of RWMutexes.
 
 ## Why use a lock?
