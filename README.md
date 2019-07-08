@@ -42,10 +42,10 @@ func main() {
 
 	exists := hashmap.Has("Key")
 	if !exists {
-        fmt.Println("Key no longer exists in hashmap!")
-    }
+		fmt.Println("Key no longer exists in hashmap")
+	}
     
-    count := hashmap.Count()
-    fmt.Println("Only ", count, " values are in the hashmap!")
+	count := hashmap.Count()
+	fmt.Println("Only ", count, " values are in the hashmap!")
 }
 ```
